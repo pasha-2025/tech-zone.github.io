@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header class="header">
+        <!--Шапка-->
+        <div class="logo">
+            <img src="C:\Users\pavel\Desktop\Проект\img\Лого.png" alt="">
+        </div>
+
+        <!--Меню сайта верхнее-->
+        <nav class="nav">
+            <ul>
+                <a href="#"><li>Новости</li></a>
+                <a href="#"><li>О нас</li></a>
+                <a href="#"><li>Акции</li></a>
+                <a href="#"><li>Магазины</li></a>
+                <a href="#"><li>Личный кабинет</li></a>
+            </ul>
+        </nav>
+
+        <!--Иконка бургер меню-->
+        <div class="burger_menu">
+            <span></span>
+        </div>
+    </header>
+<div>
+    <div class="btn_katalog">
+        <img src="C:\Users\pavel\Desktop\Проект\img\Кнопка каталог.png" alt="">
+        <input type="text" placeholder="Поиск по товарам">
+    </div>
+        
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    <script>
+        document.querySelector('.burger_menu').addEventListener('click',function(){
+            this.classList.toggle('active');
+            document.querySelector('.nav').classList.toggle('open');
+        
+        })
+    </script>
+</body>
+</html>
